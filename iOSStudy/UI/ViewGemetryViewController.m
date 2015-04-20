@@ -112,11 +112,11 @@
             break;
         case ViewGemetryEditViewModifyTransform:
             _blueView.transform = _editView.showTransform;
-            _lightBlueView.frame = _blueView.frame;
             break;
         default:
             break;
     }
+    _lightBlueView.frame = _blueView.frame;
 }
 
 - (void)initData {
